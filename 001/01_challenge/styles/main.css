@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: rgb(233, 241, 228);
+  color: rgb(90, 95, 80);
+  margin: 50px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  color: rgb(70, 60, 60);
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+ul {
+  font-family: "Fira Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  font-family: "Fira Sans", sans-serif;
+  text-decoration: none;
+  color: rgb(164, 7, 51);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(42, 25, 189);
+}

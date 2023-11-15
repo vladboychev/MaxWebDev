@@ -1,0 +1,11 @@
+a {
+  color: white;
+  padding: 12px;
+  font-size: 28px;
+  background-color: rgb(165, 5, 75);
+  border-radius: 5px;
+}
+
+a:hover {
+  color: aquamarine;
+}
