@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: rgb(233, 241, 228);
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-shadow: 3px 3px 5px rgba(33, 44, 55, 0.3);
+  color: rgb(50, 60, 50);
+}
+
+ul {
+  font-family: "Fira Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+footer {
+  margin-top: 36px;
+}
