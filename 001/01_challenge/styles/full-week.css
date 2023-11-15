@@ -1,11 +1,59 @@
+header {
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  text-shadow: 3px 3px 5px rgba(33, 44, 55, 0.3);
+  color: rgb(70, 60, 60);
+  margin: 0;
+}
+
 a {
   color: white;
-  padding: 12px;
+  padding: 12px 26px 12px 26px;
   font-size: 28px;
+  border: 1px solid;
   background-color: rgb(165, 5, 75);
   border-radius: 5px;
+  margin: 0;
+  display: inline-block;
+  box-shadow: 4px 4px 7px rgba(15, 29, 44, 0.5);
 }
 
 a:hover {
   color: aquamarine;
+}
+
+/* header p */
+#header_description {
+  margin: 12px;
+}
+
+ul {
+  width: 500px;
+  margin: 36px auto 0 auto;
+  padding: 0;
+}
+
+li {
+  background-color: rgb(235, 225, 215);
+  padding: 16px;
+  margin: 32px;
+  box-shadow: 7px 7px 13px rgba(11, 22, 33, 0.5);
+}
+
+h2 {
+  font-family: Oswald, sans-serif;
+  color: rgb(78, 16, 8);
+}
+
+main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+
+.highlight-goal {
+  background-color: rgb(230, 211, 193);
 }

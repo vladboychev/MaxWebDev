@@ -1,8 +1,6 @@
 body {
   text-align: center;
   background-color: rgb(233, 241, 228);
-  color: rgb(90, 95, 80);
-  margin: 50px;
 }
 
 img {
@@ -11,15 +9,33 @@ img {
   border-radius: 100px;
 }
 
+#main-content {
+  width: 750px;
+  height: 350px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background-color: rgb(170, 44, 44);
+}
+
 h1 {
   font-family: "Oswald", sans-serif;
-  font-size: 48px;
-  color: rgb(70, 60, 60);
+  font-size: 36px;
+  text-shadow: 3px 3px 5px rgba(33, 44, 55, 0.3);
+  color: rgb(50, 60, 50);
+  margin: 0;
+  padding: 48px;
+}
+
+span {
+  color: rgb(90, 95, 80);
 }
 
 h3 {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
+  font-size: 48px;
+  color: rgb(45, 55, 35);
+  margin: 0;
 }
 
 ul {
