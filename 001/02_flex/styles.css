@@ -1,0 +1,80 @@
+#hero {
+  height: 100vh;
+  background-image: url("./images/places/neom-sP5ZW-JDIfI-unsplash.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.6);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 15px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 300px;
+}
+
+#hero-content h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#hero-content p {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(250, 250, 10);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgba(250, 250, 10, 0.6);
+}
+
+#highlights {
+  text-align: center;
+}
+
+#highlights h2 {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+}
+
+#destinations {
+  list-style: none;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.destination {
+  margin: 0 20px;
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  object-fit: contain;
+}
